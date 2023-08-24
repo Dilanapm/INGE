@@ -25,7 +25,7 @@ body{
     background-color: rgb(25,161,173);
 }
 .card{
-    width: 87%;
+    width: auto;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -74,6 +74,7 @@ body{
 .stat>div span:nth-child(2){
     font-weight: 400;
     font-size: var(--Dark-grayish-blue);
+    letter-spacing: 0.1rem;
 }
 .lond{
     display: flex;
@@ -85,4 +86,12 @@ body{
     background-color: white;
     border-radius: 5%;
     margin-top: -4%;
+}
+@media (min-width: 768px){
+    .data span:nth-child(1){
+        color:blueviolet;
+    }
+    .stat>div :nth-child(3){
+        display: none;
+    }
 }
