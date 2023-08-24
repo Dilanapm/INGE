@@ -22,15 +22,18 @@ body{
     justify-content: center;
     align-items: center;
     background: url(images/bg-pattern-top.svg);
+    background-color: rgb(25,161,173);
 }
 .card{
-    width: 95%;
+    width: 87%;
     border-radius: 10px;
     overflow: hidden;
 }
 .image-profile{
     border-radius: 100%;
     border: 2px solid white;
+    margin-top: -25px;
+    margin-left: 120px;
 }
 .description{
     display: flex;
@@ -54,7 +57,8 @@ body{
 }
 .stat{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 25px;
 }
 .stat>div{
     display: flex;
@@ -70,4 +74,15 @@ body{
 .stat>div span:nth-child(2){
     font-weight: 400;
     font-size: var(--Dark-grayish-blue);
+}
+.lond{
+    display: flex;
+    color: var(--Dark-grayish-blue);
+    align-items: center;
+    justify-content: space-around;
+}
+.tarjeta{
+    background-color: white;
+    border-radius: 5%;
+    margin-top: -4%;
 }
